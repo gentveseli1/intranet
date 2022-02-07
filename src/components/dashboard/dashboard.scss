@@ -1,0 +1,64 @@
+.dashboard-holder {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    height: calc(100vh - 80px);
+    background-color: #f6f7fc;
+    padding: 15px 0px;
+    .db-box {
+        background-color: #FFFFFF !important;
+        // background-image: url('../../assets/images/02.png');
+        position: relative;
+        height: 100%;
+        box-shadow: 1px 9px 50px -17px rgba(0,0,0,0.54);
+        -webkit-box-shadow: 1px 9px 50px -17px rgba(0,0,0,0.54);
+        -moz-box-shadow: 1px 9px 50px -17px rgba(0,0,0,0.54);
+        .loginGoogleBtn {
+            position: absolute;
+            top: 50px;
+            left: 50%;
+            margin-left: -91.25px;
+            z-index: 1;
+            background-color: rgb(255, 255, 255);
+            display: inline-flex;
+            align-items: center;
+            color: rgba(0, 0, 0, 0.54);
+            padding: 0px;
+            border-radius: 2px;
+            border: 1px solid transparent;
+            font-size: 14px;
+            font-weight: 500;
+            font-family: Roboto, sans-serif;
+            padding: 10px;
+            box-shadow: 0px 3px 5px 4px rgba(0,0,0,0.41);
+            -webkit-box-shadow: 0px 3px 5px 4px rgba(0,0,0,0.41);
+            -moz-box-shadow: 0px 3px 5px 4px rgba(0,0,0,0.41);
+            background-image: url(../../assets/images/google.png);
+            background-size: 28px;
+            background-repeat: no-repeat;
+            background-position: calc(8.5% - 10px) 50%;
+            padding-left: 35px;
+        }
+    }
+}
+
+.login-button {
+    cursor: pointer;
+    font: inherit;
+    border: none;
+    background-color: #343a40d0;
+    border: 2px solid #595e63!important;
+    color: white;
+    padding: 0.65rem 2.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.login-button:hover {
+    border: 2px solid #343a40d0;
+    background-color: #FFFFFF;
+    color: #343a40d0;
+}

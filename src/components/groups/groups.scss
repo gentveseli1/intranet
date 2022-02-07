@@ -1,0 +1,94 @@
+.edit-btn {
+  background-color: #ececec;
+  font-weight: 600;
+  border: 0px;
+  padding: 15px 18px;
+  border-radius: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  background-image: url(../../assets/images/pen.png);
+  background-position: center;
+  background-size: 14px;
+  background-repeat: no-repeat;
+}
+
+.group-details-btn {
+  background-color: #ececec;
+  font-weight: 600;
+  border: 0px;
+  padding: 9.5px 18px;
+  border-radius: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  background-image: url(../../assets/images/group.png);
+  background-position: center;
+  background-size: 18px;
+  background-repeat: no-repeat;
+}
+  
+.button {
+    cursor: pointer;
+    font: inherit;
+    border: none;
+    background-color: #343a40d0;
+    border: 2px solid #595e63!important;
+    color: white;
+    padding: 0.55rem 2.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    font-weight: bold;
+    float: right;
+    z-index: 9999;
+  }
+  
+  .button:hover,
+  .button:active {
+    background-color: #343a40;
+  }
+  
+  .icon {
+    width: 1.35rem;
+    height: 1.35rem;
+    margin-right: 0.5rem;
+  }
+  
+  .badge {
+    background-color: #b94517;
+    padding: 0.25rem 1rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+    font-weight: bold;
+  }
+  
+  .button:hover .badge,
+  .button:active .badge {
+    background-color: #92320c;
+  }
+  
+  .bump {
+    animation: bump 300ms ease-out;
+  }
+  
+  @keyframes bump {
+    0% {
+      transform: scale(1);
+    }
+    10% {
+      transform: scale(0.9);
+    }
+    30% {
+      transform: scale(1.1);
+    }
+    50% {
+      transform: scale(1.15);
+    }
+    100% {
+      transform: scale(1);
+    }
+}
+
+.p-10px {
+  padding: 18px;
+}

@@ -1,0 +1,19 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+$font-stack: Poppins;
+
+body {
+  font: 100% $font-stack;
+}
+
+.Toastify__toast-container {
+  width: auto!important;
+  p, div {
+    font-size: 16px;
+    color: #ececec;
+  }
+  span {
+      font-size: 15px;
+      color: #000;
+  }
+}

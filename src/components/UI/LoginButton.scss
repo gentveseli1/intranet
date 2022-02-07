@@ -1,0 +1,25 @@
+.login-button-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .login-button {
+        margin-top: 25px;
+        cursor: pointer;
+        font: inherit;
+        border: none;
+        background-color: #343a40d0;
+        border: 2px solid #595e63!important;
+        color: white;
+        padding: 0.65rem 2.5rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 25px;
+        font-weight: bold;
+    }
+    .login-button:hover {
+        border: 2px solid #343a40d0;
+        background-color: #FFFFFF;
+        color: #343a40d0;
+    }
+}

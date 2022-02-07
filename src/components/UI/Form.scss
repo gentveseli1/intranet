@@ -1,0 +1,42 @@
+form {
+    padding: 15px;
+}
+
+label {
+    width: 100%;
+    font-weight: 600;
+}
+
+.h-unset {
+    height: unset!important;
+    border-radius: 10px!important;
+    margin-bottom: 15px;
+}
+
+.cancel-btn {
+    background-color: transparent!important;
+    border: 2px solid #595e63!important;
+    margin-right: 15px;
+    cursor: pointer;
+    font: inherit;
+    border: none;
+    color: #595e63;
+    padding: 0.55rem 2.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    font-weight: bold;
+    float: right;
+}
+
+.visibility-hidden {
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+}
+
+.alert-validation {
+    color: rgb(185, 72, 72);
+    font-size: 14px;
+}
