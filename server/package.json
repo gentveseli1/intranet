@@ -1,0 +1,37 @@
+{
+    "name": "chamelcolective",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon server/app.js",
+        "dev": "nodemon server/app.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "aws-sdk": "^2.946.0",
+        "axios": "^0.21.1",
+        "body-parser": "^1.19.0",
+        "connect-dynamodb": "^2.0.4",
+        "cookie-parser": "^1.4.5",
+        "cors": "^2.8.5",
+        "dotenv": "^10.0.0",
+        "dynamoose": "^2.7.3",
+        "express": "^4.17.1",
+        "express-session": "^1.17.2",
+        "google-auth-library": "^7.3.0",
+        "googleapis": "^81.0.0",
+        "open": "^8.2.1",
+        "query-string": "^7.0.1",
+        "request": "^2.88.2",
+        "server-destroy": "^1.0.1",
+        "shortid": "^2.2.16",
+        "url-parse": "^1.5.1",
+        "xmlhttprequest": "^1.8.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.12"
+    }
+}
